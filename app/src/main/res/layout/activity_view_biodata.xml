@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewBiodataActivity">
+
+    <TextView
+        android:id="@+id/textView1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="104dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1a"
+        android:layout_below="@+id/textView1a"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2a"
+        android:layout_below="@+id/textView2a"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView4a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3a"
+        android:layout_below="@+id/textView3a"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView5a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView4a"
+        android:layout_below="@+id/textView4a"
+        android:layout_marginTop="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/TextView05a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5a"
+        android:layout_alignBottom="@+id/textView5a"
+        android:layout_alignLeft="@+id/TextView03a"
+        android:text="Address" />
+
+    <TextView
+        android:id="@+id/TextView03a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4a"
+        android:layout_alignBottom="@+id/textView4a"
+        android:layout_alignLeft="@+id/TextView04a"
+        android:text="Gender" />
+
+    <TextView
+        android:id="@+id/TextView04a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3a"
+        android:layout_alignBottom="@+id/textView3a"
+        android:layout_alignLeft="@+id/TextView02a"
+        android:text="DOB" />
+
+    <TextView
+        android:id="@+id/TextView02a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2a"
+        android:layout_alignBottom="@+id/textView2a"
+        android:layout_alignLeft="@+id/TextView01a"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/TextView01a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2a"
+        android:layout_alignParentLeft="true"
+        android:text="Number" />
+
+    <Button
+        android:id="@+id/button1a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView05a"
+        android:layout_alignLeft="@+id/TextView05a"
+        android:layout_marginTop="34dp"
+        android:text="BACK" />
+
+</RelativeLayout>
